@@ -32,6 +32,8 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 1.5rem;
+  display: flex;
+  gap: 3px;
 }
 
 /* Cabeçalho e destaque principal */
