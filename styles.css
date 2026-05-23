@@ -627,6 +627,32 @@ body {
   margin-top: 0.5rem;
 }
 
+.footer__instagram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--cor-branco);
+  color: var(--cor-principal-escura);
+  border: 2px solid var(--cor-principal-escura);
+  text-decoration: none;
+  transition: transform var(--transicao), background var(--transicao), color var(--transicao), box-shadow var(--transicao);
+}
+
+.footer__instagram:hover {
+  background: var(--cor-principal-escura);
+  color: var(--cor-branco);
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 6px 18px rgba(122, 168, 232, 0.45);
+}
+
+.footer__instagram-icon {
+  width: 22px;
+  height: 22px;
+}
+
 /* Celular e telas menores */
 @media (max-width: 768px) {
   .links-menu {
